@@ -1,6 +1,6 @@
 FROM buildpack-deps:stretch
 
-ARG JRE_VER=9.0.1
+ARG JRE_VER=9.0.4
 
 COPY serverjre-${JRE_VER}_linux-x64_bin.tar.gz /
 
